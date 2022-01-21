@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap+family=Atkinson+Hyperlegible&family=Londrina+Solid:wght@300&display=swap');
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>X To Food Waste - Home</title>
+
+	<!--Links style.css to HTML-->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+	<!--Links jQuery library to HTML-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+  
+</head>
+
+<body>
+
+	<!-- NAV BAR -->
+	<div class="navBar">
+		<img class="logo1" src="Wa te.png">
+    <h1 class = "page-header">X TO FOOD WASTE</h1>
+    <a href="thingsYCD.html">What You Can Do</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="info.html">Information</a>
+    <a href="about.html">About Us</a>
+    <a href="index.html">Home</a>
+     
+      
+     
+
+    </div>  
+   
+    <!-- Image container and text box -->
+    <div class = "imageContainerBackground">
+      <div class = "imageContainer">
+        <div class = "mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img class = "initialImage" src = "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+          <div class="caption-text">45% of fruits and vegetables produced each year are thrown away.</div>
+        </div>  
+        <div class = "mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img class = "initialImage" src = "https://static01.nyt.com/images/2021/01/26/well/well-foods-microbiome/well-foods-microbiome-superJumbo.jpg">
+          <div class="caption-text">On World Food Day, 3.5 million tonnes of food will go to waste, while 870 million people go hungry.</div>
+        </div>  
+        <div class = "mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img class = "initialImage" src = "https://imgs.waste-management-world.com/m/3653_1_800-0-1.85_.jpg">
+          <div class="caption-text">Pickling, drying, canning, fermenting, freezing and curing are all methods you can use to make food last longer, thus reducing waste. </div>
+        </div>  
+        <!-- move between images -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        <div class = "info-box">
+          <h1 class = "info-header">food • waste</h1>
+          <p class = "info-pronunciation">[fo͞od wāst] <em>noun</em></p>
+          <p class = "info-body">
+          “Food waste” is a component of food loss and occurs when an edible item goes unconsumed. This includes the half-eaten meal left on the plate at a restaurant, food scraps from preparing a meal at home and the sour milk a family pours down the drain.
+
+          </p>
+          <p class = "info-body">Our goal at <em>X to Food Waste</em> is to educate individuals on how to reduce their food waste, and live more sustainably.</p>
+          <p class = "info-source">Source: USDA Economic Information Bulletin No. (EIB-121) 39 pp, February 2014</p>
+          
+        </div>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+          
+    <div class = "fact-divider">
+      <h3 class = "fact-divider-text">When was the last time you tossed out some old leftovers? Or threw away food that you didn’t feel like eating? <p class = "white-text">If the answer is recently, you’re not alone.</p></h3>
+    </div>
+    <!-- statistics on food waste section -->
+    <div class = "statistics">
+      <div class = "statistics-info">
+        <h1 class = "statistics-header">Major Contibutors of Food Waste:</h1>
+        
+        <img src = "index pie chart.png" alt = "(USDA, 2014)" class = "piechart">
+        
+        <ul class = "food-waste-list">
+          <h1>Households create 44% of all food waste, more than any other sector.</h1>
+          
+          <li class = "food-waste-fact">Every year, <em>US households waste 76 billion pounds of food</em>, making up 40-50% of all food waste - more than any other sector - contributing to both our landfills and world hunger.</li>
+          <ul>
+            <li class = "food-waste-fact">Yet, <strong>32 percent of that food waste is avoidable</strong> and is edible food that could be redirected to support people in our communities.</li>
+          </ul>
+          
+          <li class = "food-waste-fact">In the United States, 31 percent of the food grown and raised – the equivalent of 133 billion pounds of food per year with a retail value in excess of $161 trillion, according to the USDA – is never eaten
+          </li>
+          <ul>
+            <li class = "food-waste-fact">ie: Almost one-third of all of the bacon, tomatoes, apples, pasta, chicken, rice, and other foods you purchase is tossed into the trash.</li>
+          </ul>
+          <li class = "food-waste-fact">According to the book American Wasteland: How America Throws Away Nearly Half of Its Food (and What We Can Do About It), the average American family spends approximately $2,220 per year on food that is never eaten.</li>
+        </ul>
+      </div>
+    </div>
+<!-- Take Our Quiz -->
+<div class = "quiz-section">
+  <h2 class = "quiz-text">Not sure where to start? Take our food waste quiz!</h2>
+  <button class = "quiz-button"><a class = "quiz-link" href = "quiz.html">Food Waste Quiz</a></button>
+</div>
+
+<!-- 
+  WEBSITE FOR INFORMATION
+  https://foodprint.org/issues/the-problem-of-food-waste/ -->
+
+    <!-- The Problem section -->
+    <div class = "problem">
+      
+        <h1 class = "problem-header">The Problem:</h1>
+        <div class = "problem-text">
+          <p><strong>A third of food waste generated by consumers is entirely avoidable and is edible!</strong> However, this food is instead sent directly to landfills where it gradually breaks down to form methane, a greenhouse gas that’s up to 86 times more powerful than carbon dioxide. According to a report from the UK based organization WRAP, <em>if food were removed from UK landfills, the greenhouse gas abatement would be <strong>equivalent to removing one-fifth of all the cars in the UK from the road!</strong></em>
+          </p>
+          <p>Consumer food waste also has <u>serious implications for energy usage</u>. A study by the consulting group McKinsey found that, on average, household food losses are responsible for <strong>eight times</strong> the energy waste of farm-level food losses due to the energy used along the food supply chain and in preparation. </p>
+          <p>Given all the resources demanded for food production, it is worth our while to make sure that the food we produce is not wasted. <em>If even just one-fourth of the food currently lost or wasted globally could be saved, it would be enough to feed 870 million hungry people in the world.</em>
+          </p>
+          <p class = "last-para">Therefore, as homes remain a large source of food waste, more needs to be done to help educate the public and provide people with resources to help them implement food saving practices at home.
+          </p>
+        </div>
+      
+      <div class = "problem-photo-div">
+        <img class = "problem-photo" src = "https://www.csulb.edu/sites/default/files/u44086/zero-waste-food-groceries-kl.jpg">
+      </div>
+    </div>
+
+<!-- 
+  WEBSITE FOR INFORMATION
+  https://foodprint.org/issues/the-problem-of-food-waste/ -->
+
+    <!-- The Consequences section -->
+    <div class = "consequences">
+     <center> <h1 class="cons-header">Causes of Food Waste:</h1></center>
+      <div class = "consequences-container">
+      
+        <div class = "consequences-box dark-green">
+          
+          <h1 class = "consequences-text">Food Spoilage</h1>
+          <p class = "consequences-text">About two-thirds of food waste at home is due to food not being used before it goes bad. Food spoilage at home occurs due to improper storage, lack of visibility in refrigerators, partially used ingredients and misjudged food needs. A number of methods of prevention can be used that can either totally prevent, delay, or otherwise reduce food spoilage. A food rotation system uses the first in first out method (FIFO), which ensures that the first item purchased is the first item consumed.
+           
+</p>
+        </div>
+        <div class = "consequences-box green">
+          <h1 class = "consequences-text">Over-Preparing </h1>
+          <p class = "consequences-text">The remaining third of household food waste is the result of people cooking or serving too much food. Cooking portions have increased over time, and large meals often include more food than we can finish. The Cornell Food and Brand lab found that since 2006, serving sizes in the classic cookbook The Joy of Cooking have increased by 36 percent. In addition, people often forget to eat leftovers, and end up throwing them away.</p>
+        </div>
+        <div class = "consequences-box light-green">
+          <h1 class = "consequences-text">Overbuying/Poor Planning</h1>
+          <p class = "consequences-text">Sales on unusual products and promotions that encourage impulse and bulk food purchases at retail stores often lead consumers to purchase items that do not fit into their regular meal plans and, therefore, spoil before they can be used. Additionally, without meal plans and shopping lists, consumers often make inaccurate estimates of what and how many ingredients they will use during the week. Unplanned restaurant meals or food delivery can also lead to food at home going bad before it can be used.</p>
+        </div>
+      </div>
+    </div>
+
+<!-- Read More -->
+  <div class = "read-more-prompt">
+  </div>
+
+    <center>
+    <div class="bottomNavBar">
+		<img class="logo2" src="Wa te.png">
+    <h1 class = "page-header2">X TO FOOD WASTE</h1>
+    <a href="thingsYCD.html">What You Can Do</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="info.html">Information</a>
+    <a href="about.html">About Us</a>
+    <a href="index.html">Home</a>
+    </div>  
+    </center>
+
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src= "script.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,799 @@
+/* Home Page CSS */
+body{
+  overflow-x:hidden;
+    
+  margin: 0px;
+  padding: 0px;
+     
+
+}
+
+.statistics{
+font-family: 'Lato', sans-serif;
+padding-top: 30px;
+}
+
+
+
+/* info page css */
+
+.info-page{
+  font-family: 'Lato', sans-serif;
+   margin-left: 10%;
+   margin-right: 10%;
+  margin-bottom: 10%
+}
+
+.info-html-left-h1{
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+}
+
+.info-html-left-h2{
+  font-size: 25px;
+  color: #023553;
+  font-family: 'Lato', sans-serif;
+}
+
+.info-html-left-p{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* About us CSS */
+.about-h1 {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 50px; 
+}
+
+.about-imageCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.about-ourImage {
+  height: 450px;
+  width: 720px;
+  object-fit: cover;
+}
+
+.about-introduction {
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.8;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 30px;
+  color: white;
+}
+
+
+.div-about{
+  background-color: rgb(2, 64, 100, 0.8);
+  margin: 10%;
+  margin-top: 5%;
+  padding-top: 10px;
+
+}
+
+
+/* Nav Bar CSS */
+
+.logo1{
+  height: 65px ;
+  width: 65px;
+  object-fit: cover;
+  float: left;
+  padding: 15px;
+
+}
+
+.navBar {
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  background-color: #024064;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.60px;
+  border: 2px solid #023553;
+  
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+  float: right;
+
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  margin-top: 0.6em;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.narBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+/* Index CSS */
+
+.page-header{
+  display: inline-block;
+  margin-top: 0.8em;
+  color: rgb(255, 255, 255, 0.9);
+  font-family: 'Lato', sans-serif;
+  }
+
+.initialImage{
+  width:100%;
+  height: 35em;
+  object-fit:cover;
+  
+  border: 1px solid rgb(2, 64, 100, 0.8);
+  margin-bottom:0;
+  padding-bottom: 0;
+}
+.imageContainerBackground{
+  /* background-color: rgb(224, 243, 254, 0.383); */
+  margin:0;
+  padding: 0;
+}
+
+.mySlides{
+  display:none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-text{
+  background-color: rgb(255, 255, 255, 0.7);
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 2em;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.imageContainer{
+  position:relative;
+  
+  margin: 1em;
+  padding-bottom: 0;
+}
+
+.info-box{
+  position: absolute;
+  left: 3em;
+  top: 3em;
+  width: 25%;
+  height: 80%;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  
+  font-family: 'Baskervville', serif !important;
+  overflow:overlay;
+  border: 1px black solid;
+}
+
+.info-header{
+  
+  color:black;
+  
+}
+
+.info-source{
+  position: absolute;
+  /*FIX: there's a conflict with the overlay of the text box here in smaller screens*/
+  bottom: 1em;
+  font-size: 0.8em;
+}
+
+.quiz-section{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border-top: 1px rgb(2, 64, 100, 0.8) solid;
+  border-bottom: 1px rgb(2, 64, 100, 0.8) solid;
+  background-color: #FEFED3;
+}
+
+.quiz-text{
+  padding: 1em;
+  padding-bottom: 0.2em;
+  text-align: center;
+}
+
+.quiz-button{
+  background-color: rgb(254, 254, 220, 0.7);
+  padding: 1em;
+  align-self: center;
+  margin-bottom: 2em;
+  border-right: 3px black solid;
+  border-bottom: 3px black solid;
+  
+}
+
+.quiz-button:hover{
+  background-color: rgb(252, 252, 139);
+  cursor:pointer;
+  
+}
+
+.quiz-link{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: black;
+  
+}
+
+.statistics{
+  margin-left: 1em;
+  margin-right:1em;
+  margin-bottom: 2em;
+}
+
+.statistics-info{
+  display: flex;
+  flex-direction:row;
+  
+}
+
+.statistics-header{
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 1em;
+  color: rgb(2, 64, 100, 1);
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+  margin-top: 1em;
+}
+
+.fact-divider{
+  background-color: rgb(2, 64, 100, 1);
+  
+  padding: 1em 0em;
+  
+}
+.fact-divider-text{
+  color:white;
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+}
+
+.white-text{
+  color:rgb(224, 243, 254, 0.9);
+  font-family: 'Lato', sans-serif;
+}
+
+.piechart{
+  width: 40%;
+  height: auto;
+  align-self:center;
+  margin-left: 3em;
+  
+}
+
+.food-waste-list{
+  margin-left:5em;
+  padding-right: 3em;
+  padding-left:3em;
+  padding-top: 2em;
+ 
+  background-color: rgb(224, 243, 254, 0.5);
+  
+  border: 1px black solid;
+  width: 50%;
+  height:auto;
+  box-shadow: 10px 10px;
+}
+
+.food-waste-fact{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Problem, home page section */
+.problem{
+  display: flex;
+  flex-direction:row;
+  padding: 2em 1em;
+  
+  font-family: 'Lato', sans-serif;
+
+}
+.problem-header{
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 1em;
+  color: rgb(2, 64, 100, 1);
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+  margin-top: 1em;
+  margin-right: 1.5em;
+}
+
+
+
+.problem-text{
+  padding: 1.5em;
+  background-color: rgb(224, 243, 254, 0.5);
+  
+  border: 1px black solid;
+  width: 50%;
+  height:auto;
+  box-shadow: 10px 10px;
+
+}
+
+.problem-photo-div{
+  width: 30%;
+  margin: 1em;
+  margin-left: 2.5em;
+}
+
+.problem-photo{
+  height: 27em;
+  object-fit: cover;
+}
+.last-para{
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+/* consequence, home page section */
+.cons-header{
+  color: rgb(2, 64, 100, 0.8);
+}
+
+
+.consequences{
+font-family: 'Lato', sans-serif;
+/* margin-left: 5%;
+margin-right: 5%; */
+margin-bottom: 1em;
+
+
+}
+
+.consequences-container{
+  display: flex;
+  flex-direction:row;
+  /* margin-left: 2em;
+  margin-right: 2em; */
+  justify-content: center;
+  width:100%;
+  
+}
+
+.consequences-box{
+  width: 33.33333%;
+  position: relative;
+  display: inline-block;
+  color:white;
+  height: 30em;
+  padding: 1em;
+  border-right: 2px white solid;
+}
+.consequences-text{
+  font-size: 20px;
+  /* padding: 1em; */
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+h1.consequences-text{
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 1px white solid;
+}
+
+/* end of the consequences section*/
+
+.dark-green{
+  background-color: rgb(55, 120, 44);
+}
+
+.green{
+  background-color: rgb(100, 187, 106);
+}
+
+.light-green{
+  background-color: rgb(159, 217, 131);
+}
+
+/* Things you can do CSS */
+.thingsYCD {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.hiddentext{
+  visibility: hidden;
+}
+
+.YCD-image{
+  height: 400px;
+  width: 700px;
+  object-position: cover;
+  margin-top: 20px;
+  background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/policy/food-waste-spotlighted-for-world-food-day-it-has-never-been-a-greater-time-to-invest-in-a-robust-wastage-strategy/11860835-1-eng-GB/Food-waste-spotlighted-for-World-Food-Day-It-has-never-been-a-greater-time-to-invest-in-a-robust-wastage-strategy_wrbm_large.jpg')
+}
+
+
+.thingsYCD-left {
+  float: left;
+  width: 65%;
+}
+
+.thingsYCD-left-h1{
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  z-index: 3;
+  letter-spacing: 3px;
+  color: #023553;
+  padding-right: 24px;
+  padding-left: 9px;
+  margin-top: 150px;
+  position:absolute;
+  margin-bottom: 200px;
+  width: 100%;
+
+}
+
+.thingsYCD-left-h2{
+  font-size: 30px;
+  color: #023553;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-left1-h2{
+  font-size: 30px;
+  color: #023553;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-left-p1{
+  font-size: 30px;
+  color: #023553;
+  font-family: 'Lato', sans-serif;
+  padding-top: 400px;
+}
+
+.thingsYCD-left-p{
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-space{
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-link{
+  color: #023553;
+}
+
+.thingsYCD-right {
+  float: right;
+  width: 26%;
+  background-color: rgb(2, 64, 100, 0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-right-h1{
+  color: white;
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+.thingsYCD-right-p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bargraph{
+display:flex;
+ flex-wrap:wrap;
+ flex-direction:row;
+ max-height:99vh;
+ justify-content:space-around;
+}
+.piechart{display:flex;
+ flex-wrap:wrap;
+ flex-direction:row;
+ max-height:99vh;
+ justify-content:space-around
+}
+
+
+
+
+
+/* BOTTOM OF THE PAGE NAV BAR */
+
+
+.logo2{
+  height: 65px ;
+  width: 65px;
+  object-fit: cover;
+  float: left;
+  padding: 15px;
+
+}
+
+.page-header2{
+
+  display: inline-block;
+  margin-top: 0.8em;
+  font-family: 'Lato', sans-serif;
+  color: #f2f2f2;
+  font-size: 15px;
+}
+
+.bottomNavBar {
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  background-color: #024064;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.60px;
+  border: 2px solid #023553;
+   padding-top: 7%;
+  
+}
+
+/* Style the links inside the navigation bar */
+.bottomNavBar a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+  margin-top: 0.6em;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+/* CSS for quiz page */
+
+.h3-quiz{
+ margin-top: 5%;
+ font-size: 40px;
+ letter-spacing: 1px;
+ color: rgb(2, 64, 100, 0.8);
+}
+
+.link-container{
+  padding: 2em;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+h2.low-waste-header{
+  margin-top: 2em;
+  color: rgb(2, 64, 100, 0.8);
+}
+
+
+.quiz-page{
+  font-family: 'Lato', sans-serif;
+  margin-left: 20%;
+  margin-right: 7%;
+  margin-bottom: 10%;
+  
+}
+
+.quiz{
+  border: 4px solid rgb(2, 64, 100, 0.8);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: rgba(2, 64, 100, 0.185);
+  float: right;
+}
+
+.quiz-image{
+  height:600px ;
+  width: 350px;
+  margin-left: 7%;
+  float: left;
+  margin-top: 10%;
+}
+
+.submit-quiz{
+  font-size: 15px;
+  color: white;
+  background-color: rgb(2, 64, 100, 0.8);
+  border: 1px solid rgb(2, 64, 100, 0.8);
+  padding: 5px;
+}
+
+.div1, .div2{
+  width: 50%;
+  border: 2px solid #024064;
+  background-color: rgb(2, 64, 100, 0.2);
+}
+.low-waste-header, .low-waste-text, .low-waste-links{
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  
+
+}
+.low-waste-text{
+  display:block;
+  
+}
+
+h1.low-waste-header{
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  padding: 1em;
+  width: 50%;
+  margin-left: 23%;
+  color: #024064;
+}
+
+p.low-waste-text{
+  width: 55%;
+  margin-left: 25%;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+a.low-waste-text{
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+
+.high-waste-header{
+  font-family: 'Lato', sans-serif;
+  color: rgb(2, 64, 100, 0.8);
+
+}
+
+.back-link{
+  text-decoration: none;
+}
+
+button.back{
+  margin-left: 40%;
+}
+.back:hover{
+  background-color: #ffdd00;
+  cursor:pointer;
+}
+.back {
+  /* back button */
+  margin-top: 2em;
+  width: 20%;
+  
+  padding: .5em;
+  background-color: #FEFED3;
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2em;
+  position:relative;
+}
+
+

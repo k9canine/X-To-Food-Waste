@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>X To Food Waste - Quiz</title>
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap+family=Atkinson+Hyperlegible&family=Londrina+Solid:wght@300&display=swap');
+	</style>
+    <!--Links style.css to HTML-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!--Links jQuery library to HTML-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+    <!-- NAV BAR -->
+    <div class="navBar">
+      <img class="logo1" src="Wa te.png">
+      <h1 class = "page-header">X TO FOOD WASTE</h1>
+      <a href="thingsYCD.html">What You Can Do</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="info.html">Information</a>
+      <a href="about.html">About Us</a>
+      <a href="index.html">Home</a>
+     
+
+    </div>  
+
+
+    <img class="quiz-image" src="https://pyxis.nymag.com/v1/imgs/14a/812/cd0f70bb973be9be7b583a6f7910f1c51d-25-groceries.rvertical.w1200.jpg">
+    <section class="quiz-background">
+  
+    </section>
+
+    	<section class="quiz-page">
+		<h3 class="h3-quiz">How Much Do You Waste Quiz</h3>
+		
+    <!--Create a form to get user input -->
+    <form class="quiz">
+			<!--Question 1-->
+      <article class="question-one">
+				<p>1. Are you constantly throwing out food like leftovers or food you forgot about?</p>
+				<input type="radio" name="Q1" value=0 class="Q1OP1">
+        <label for="Q1OP1">Yes, all the time</label> <br>
+        <input type="radio" name="Q1" value=1 class="Q1OP2">
+        <label for="Q1OP2">Yes, once in a while</label> <br>
+        <input type="radio" name="Q1" value=2 class="Q1OP3">
+        <label for="Q1OP3">Only expired foods</label> <br>
+        <input type="radio" name="Q1" value=3 class="Q1OP4">
+        <label for="Q1OP4">No, never</label> <br>
+
+      </article>
+      
+      <!--Question 2-->
+      <article class="question-two">
+        <p>2. When You Go To Restaurants Do You Ever Over-order? And Leave With A Lot Of Food Left?</p>
+        <input type="radio" name="Q2" value="Option 1" class="Q2OP1">
+        <label for="Q2OP1">No, never</label> <br>
+        <input type="radio" name="Q2" value="Option 2" class="Q2OP2">
+        <label for="Q2OP2">Only sometimes</label> <br>
+        <input type="radio" name="Q2" value="Option 3" class="Q2OP3">
+        <label for="Q2OP3">Yes, but I take the food to go</label> <br>
+        <input type="radio" name="Q2" value="Option 4" class="Q2OP4">
+        <label for="Q2OP4">Yes, all the time</label> <br>
+      
+      </article>
+      
+      <!--Question 3-->
+      <article class="question-three">
+        <p>3. Have you ever given extra food that isn't expired to people in need of them?</p>
+        <input type="radio" name="Q3" value="Option 1" class="Q3OP1">
+        <label for="Q3OP1">Yes, I do donate to food drives</label> <br>
+        <input type="radio" name="Q3" value="Option 2" class="Q3OP2">
+        <label for="Q3OP2">Yes, once in a while to my peers</label> <br>
+        <input type="radio" name="Q3" value="Option 3" class="Q3OP3">
+        <label for="Q3OP3">Once or twice for school</label> <br>
+        <input type="radio" name="Q3" value="Option 4" class="Q3OP4">
+        <label for="Q3OP4">No, I have never</label> <br>
+      </article>
+
+      <!-- Question 4 -->
+      <article class="question-four">
+        <p>4. When planning meals, do you try to use food that might spoil soon first?</p>
+        <input type="radio" name="Q4" value="Option 1" class="Q4OP1">
+        <label for="Q4OP1">Often</label> <br>
+        <input type="radio" name="Q4" value="Option 2" class="Q4OP2">
+        <label for="Q4OP2">Sometimes</label> <br>
+        <input type="radio" name="Q4" value="Option 3" class="Q4OP3">
+        <label for="Q4OP3">Rarely</label> <br>
+        <input type="radio" name="Q4" value="Option 4" class="Q4OP4">
+        <label for="Q4OP4">No, never</label> <br>
+      </article>
+
+
+      <br>
+
+      <!--Creates Submit Button-->
+      <input class="submit-quiz" type="button" value="Get quiz results!">
+      
+      <!--Empty Container for Results-->
+      <section class="results-container"></section>
+    </form>
+  </section>
+    
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
